@@ -42,7 +42,7 @@
                 </Grid.RowDefinitions>
 
                 <StackPanel Grid.Row="0" Margin="0,12">
-                    <TextBlock FontSize="16" Text="WPF UI - Vacancy_Store" />
+                    <TextBlock FontSize="16" Text="Vacancy_Store" />
                     <TextBlock
                         FontSize="10"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"

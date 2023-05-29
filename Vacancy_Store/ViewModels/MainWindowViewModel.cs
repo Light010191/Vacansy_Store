@@ -32,7 +32,7 @@ namespace Vacancy_Store.ViewModels
 
         private void InitializeViewModel()
         {
-            ApplicationTitle = "WPF UI - Vacancy_Store";
+            ApplicationTitle = "Vacancy_Store";
 
             NavigationItems = new ObservableCollection<INavigationControl>
             {
