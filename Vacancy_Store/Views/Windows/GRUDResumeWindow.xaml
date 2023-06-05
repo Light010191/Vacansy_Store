@@ -69,6 +69,23 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
+                <Label Content="Должность" 
+                    Foreground="Black"
+                    FontSize="14"/>
+                <TextBox Grid.Column="1"
+                    VerticalAlignment="Center"
+                         Background="White"
+                         BorderBrush="Black"
+                         BorderThickness="2"/>
+
+            </Grid>
+            <Grid Margin="5">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition SharedSizeGroup="LableGroup"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
                 <Label Content="Желаемая зарплата" 
                     Foreground="Black"
                     FontSize="14"/>
