@@ -16,7 +16,7 @@ namespace Vacancy_Store.Services
         private readonly AppDbContext _context;
         public UserService()
         {
-            _context = new AppDbContext();
+            
         }
 
         public async Task<bool> AddNewCompany(Company company)
