@@ -69,7 +69,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Label Content="Последнее место работы" 
+                <Label Content="Желаемая зарплата" 
                     Foreground="Black"
                     FontSize="14"/>
                 <TextBox Grid.Column="1"
