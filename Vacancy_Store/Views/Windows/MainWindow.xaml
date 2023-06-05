@@ -46,7 +46,7 @@
                     <TextBlock
                         FontSize="10"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"
-                        Text="ФИО" />
+                        Text="Главная" /> 
                 </StackPanel>
 
                 <ui:AutoSuggestBox Grid.Row="1" Margin="0,0,0,12" />

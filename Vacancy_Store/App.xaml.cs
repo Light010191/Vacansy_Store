@@ -47,12 +47,17 @@ namespace Vacancy_Store
                 services.AddScoped<ViewModels.MainWindowViewModel>();
 
                 // Views and ViewModels
+
                 services.AddScoped<Views.Pages.DashboardPage>();
                 services.AddScoped<ViewModels.DashboardViewModel>();
                 services.AddScoped<Views.Pages.DataPage>();
                 services.AddScoped<ViewModels.DataViewModel>();
                 services.AddScoped<Views.Pages.SettingsPage>();
                 services.AddScoped<ViewModels.SettingsViewModel>();
+                services.AddScoped<Views.Pages.ResumePage>();
+                services.AddScoped<ViewModels.ResumeViewModel>();
+                services.AddScoped<Views.Pages.AuthorizationPage>();
+                services.AddScoped<ViewModels.AuthorizationViewModel>();
 
                 // Configuration
                 services.Configure<AppConfig>(context.Configuration.GetSection(nameof(AppConfig)));
