@@ -51,7 +51,7 @@ namespace Vacancy_Store.Services
                 _navigationWindow = (_serviceProvider.GetService(typeof(INavigationWindow)) as INavigationWindow)!;
                 _navigationWindow!.ShowWindow();
 
-                _navigationWindow.Navigate(typeof(Views.Pages.AuthorizationPage));
+                _navigationWindow.Navigate(typeof(Views.Pages.DashboardPage));
             }
 
             await Task.CompletedTask;

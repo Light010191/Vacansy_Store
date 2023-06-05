@@ -32,7 +32,7 @@ namespace Vacancy_Store.ViewModels
 
         private void InitializeViewModel()
         {
-            ApplicationTitle = "Vacancy Store";
+            ApplicationTitle = "Vacancy_Store";
 
             NavigationItems = new ObservableCollection<INavigationControl>
             {
@@ -45,24 +45,10 @@ namespace Vacancy_Store.ViewModels
                 },
                 new NavigationItem()
                 {
-                    Content = "Авторизация",
-                    PageTag = "autorization",
-                    Icon = SymbolRegular.Home24,
-                    PageType = typeof(Views.Pages.AuthorizationPage)
-                },
-                new NavigationItem()
-                {
-                    Content = "Вакансии",
+                    Content = "Data",
                     PageTag = "data",
                     Icon = SymbolRegular.DataHistogram24,
                     PageType = typeof(Views.Pages.DataPage)
-                },
-                new NavigationItem()
-                {
-                    Content = "Резюме",
-                    PageTag = "resume",
-                    Icon = SymbolRegular.DeveloperBoard24,
-                    PageType = typeof(Views.Pages.ResumePage)
                 }
             };
 
