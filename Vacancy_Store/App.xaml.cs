@@ -1,12 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.IO;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
-using Vacancy_Store.Data;
 using Vacancy_Store.Models;
 using Vacancy_Store.Services;
 using Wpf.Ui.Mvvm.Contracts;
@@ -49,13 +47,18 @@ namespace Vacancy_Store
                 services.AddScoped<ViewModels.MainWindowViewModel>();
 
                 // Views and ViewModels
+
                 services.AddScoped<Views.Pages.DashboardPage>();
                 services.AddScoped<ViewModels.DashboardViewModel>();
                 services.AddScoped<Views.Pages.DataPage>();
                 services.AddScoped<ViewModels.DataViewModel>();
                 services.AddScoped<Views.Pages.SettingsPage>();
                 services.AddScoped<ViewModels.SettingsViewModel>();
-                services.AddDbContext<AppDbContext>(options => options.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=Vacancy_Store;Integrated Security=true;TrustServerCertificate=True;"));
+                services.AddScoped<Views.Pages.ResumePage>();
+                services.AddScoped<ViewModels.ResumeViewModel>();
+                services.AddScoped<Views.Pages.AuthorizationPage>();
+                services.AddScoped<ViewModels.AuthorizationViewModel>();
+
                 // Configuration
                 services.Configure<AppConfig>(context.Configuration.GetSection(nameof(AppConfig)));
             }).Build();

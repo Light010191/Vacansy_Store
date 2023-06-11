@@ -1,4 +1,5 @@
-﻿using Wpf.Ui.Common.Interfaces;
+﻿using Vacancy_Store.Views.Windows;
+using Wpf.Ui.Common.Interfaces;
 
 namespace Vacancy_Store.Views.Pages
 {
@@ -17,6 +18,12 @@ namespace Vacancy_Store.Views.Pages
             ViewModel = viewModel;
 
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var ResumeWindow = new GRUDResumeWindow();
+            ResumeWindow.Show();
         }
     }
 }

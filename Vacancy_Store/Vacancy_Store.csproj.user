@@ -2,21 +2,18 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
+    <Compile Update="Views\Windows\GRUDResumeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Pages\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\DataPage.xaml">
+    <Page Update="Views\Pages\ResumePage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\SettingsPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\Windows\MainWindow.xaml">
+    <Page Update="Views\Windows\GRUDResumeWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

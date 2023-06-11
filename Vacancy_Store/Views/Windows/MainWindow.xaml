@@ -42,11 +42,11 @@
                 </Grid.RowDefinitions>
 
                 <StackPanel Grid.Row="0" Margin="0,12">
-                    <TextBlock FontSize="16" Text="Vacancy_Store" />
+                    <TextBlock FontSize="16" Text="Vacancy Store"/>
                     <TextBlock
                         FontSize="10"
                         Foreground="{DynamicResource TextFillColorTertiaryBrush}"
-                        Text="Fluent design" />
+                        Text="Главная" /> 
                 </StackPanel>
 
                 <ui:AutoSuggestBox Grid.Row="1" Margin="0,0,0,12" />
@@ -57,7 +57,7 @@
                     Grid.Row="2"
                     Footer="{Binding ViewModel.NavigationFooter, Mode=TwoWay}"
                     Frame="{Binding ElementName=RootFrame, Mode=OneWay}"
-                    Items="{Binding ViewModel.NavigationItems, Mode=TwoWay}" />
+                    Items="{Binding ViewModel.NavigationItems, Mode=TwoWay}"/>
             </Grid>
 
             <!--  We display our pages inside this element.  -->
