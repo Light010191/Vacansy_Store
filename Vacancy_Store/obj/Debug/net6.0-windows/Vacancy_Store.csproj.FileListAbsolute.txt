@@ -65,11 +65,15 @@ D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vi
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\GRUDResumeWindow.baml
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> реализация резюме
+=======
+=======
+>>>>>>> 
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.exe
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.deps.json
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.runtimeconfig.json
@@ -173,6 +177,9 @@ D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-wind
 D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-windows\ref\Vacancy_Store.dll
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 
 =======
 >>>>>>> 
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.exe
@@ -279,6 +286,7 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 
 =======
 =======
@@ -308,4 +316,6 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.g.cs
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.baml
+=======
+>>>>>>> 
 >>>>>>> 

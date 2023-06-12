@@ -4,11 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+<<<<<<< HEAD
+D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+>>>>>>> 
+>>>>>>> 
 Vacancy_Store
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
@@ -28,6 +37,9 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xam
 =======
 D:\Lesson\проект\новые ветки\Vacancy_Store\App.xaml
 >>>>>>> реализация резюме
+=======
+D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
+>>>>>>> 
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
 >>>>>>> 
