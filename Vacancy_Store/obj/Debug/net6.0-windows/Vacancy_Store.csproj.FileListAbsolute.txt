@@ -172,6 +172,9 @@ D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-wind
 D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-windows\Vacancy_Store.genruntimeconfig.cache
 D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-windows\ref\Vacancy_Store.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.exe
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.deps.json
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.runtimeconfig.json
@@ -274,6 +277,7 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vacancy_Store.genruntimeconfig.cache
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\ref\Vacancy_Store.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr.g.cs
@@ -284,3 +288,5 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 >>>>>>> 
 =======
 >>>>>>> реализация резюме
+=======
+>>>>>>> 
