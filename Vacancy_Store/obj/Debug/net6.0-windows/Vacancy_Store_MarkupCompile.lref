@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FD:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\Views\Pages\DashboardPage.xaml;;
 FD:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\Views\Pages\DataPage.xaml;;
 FD:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\Views\Pages\SettingsPage.xaml;;
@@ -24,4 +25,13 @@ FD:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\Views\
 FD:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\Views\Windows\Select.xaml;;
 >>>>>>> 
 >>>>>>> 
+=======
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Pages\AuthorizationPage.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Pages\DashboardPage.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Pages\DataPage.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Pages\ResumePage.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Pages\SettingsPage.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Windows\GRUDResumeWindow.xaml;;
+FD:\Lesson\проект\новые ветки\Vacancy_Store\Views\Windows\MainWindow.xaml;;
+>>>>>>> реализация резюме
 
