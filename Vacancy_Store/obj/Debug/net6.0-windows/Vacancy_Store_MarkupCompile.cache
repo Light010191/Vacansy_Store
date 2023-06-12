@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+>>>>>>> 
 Vacancy_Store
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
+>>>>>>> 
 7-1732468586
 1882702876
 20201947596
