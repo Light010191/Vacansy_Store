@@ -43,14 +43,7 @@
                     Margin="20 0 0 0"/>
         </StackPanel>
 
-        <ListView Grid.Row="1">
-            
-            
-            
-        </ListView>
-        
-        
-        <!--<ListView Grid.Row="1"
+        <ListView Grid.Row="1"
                   ItemsSource="{Binding Path=Resumes}"
                   ScrollViewer.VerticalScrollBarVisibility="Auto"
                   ScrollViewer.HorizontalScrollBarVisibility="Disabled"
@@ -90,7 +83,7 @@
                     </Viewbox>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView >-->
+        </ListView >
 
     </Grid>
 </ui:UiPage>
