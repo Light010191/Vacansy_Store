@@ -182,6 +182,9 @@ D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-wind
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 
 =======
 >>>>>>> 
 =======
@@ -292,6 +295,7 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 
 =======
 =======
@@ -339,3 +343,5 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 >>>>>>> 
 =======
 >>>>>>> реализация резюме
+=======
+>>>>>>> 

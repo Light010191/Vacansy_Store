@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj": {}
   },
   "projects": {
@@ -15,17 +16,24 @@
         "outputPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\obj\\",
 =======
     "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj": {}
+=======
+    "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj": {}
+>>>>>>> 
   },
   "projects": {
-    "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj": {
+    "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj",
+        "projectUniqueName": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
         "projectName": "Vacancy_Store",
-        "projectPath": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj",
+        "projectPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
         "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
+<<<<<<< HEAD
         "outputPath": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\obj\\",
 >>>>>>> реализация резюме
+=======
+        "outputPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\obj\\",
+>>>>>>> 
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
