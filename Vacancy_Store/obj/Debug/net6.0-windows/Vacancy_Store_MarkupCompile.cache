@@ -4,11 +4,12 @@
 winexe
 C#
 .cs
-D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-windows\
 Vacancy_Store
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
 <<<<<<< HEAD
 =======
@@ -18,10 +19,13 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xam
 <<<<<<< HEAD
 >>>>>>> 
 >>>>>>> 
+=======
+D:\Lesson\проект\новые ветки\Vacancy_Store\App.xaml
+>>>>>>> реализация резюме
 7-1732468586
 1882702876
-20201947596
-2222099942174
+311368276710
+243-2092863650
 Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;
 =======
 92077641192
