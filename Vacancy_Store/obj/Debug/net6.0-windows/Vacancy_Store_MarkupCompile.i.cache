@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+D:\Lesson\проект\новые ветки\Vacancy_Store\obj\Debug\net6.0-windows\
+>>>>>>> реализация резюме
 Vacancy_Store
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
 10-268099554
 1882702876
 38-863826209
 243-2092863650
 Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\Registr.xaml;Views\Windows\Registr2.xaml;Views\Windows\Select.xaml;
+=======
+D:\Lesson\проект\новые ветки\Vacancy_Store\App.xaml
+7-1732468586
+1882702876
+33225978940
+243-2092863650
+Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;
+>>>>>>> реализация резюме
 
 True
 

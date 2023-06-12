@@ -9,6 +9,7 @@ namespace Vacancy_Store.ViewModels
         [ObservableProperty]
         private int _counter = 0;
 
+
         public void OnNavigatedTo()
         {
         }
