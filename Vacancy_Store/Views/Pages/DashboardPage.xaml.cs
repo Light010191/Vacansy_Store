@@ -1,4 +1,7 @@
-﻿using Vacancy_Store.Views.Windows;
+﻿using System.Collections.Generic;
+using Vacancy_Store.Models;
+using Vacancy_Store.ViewModels;
+using Vacancy_Store.Views.Windows;
 using Wpf.Ui.Common.Interfaces;
 
 namespace Vacancy_Store.Views.Pages
@@ -8,6 +11,7 @@ namespace Vacancy_Store.Views.Pages
     /// </summary>
     public partial class DashboardPage : INavigableView<ViewModels.DashboardViewModel>
     {
+
         public ViewModels.DashboardViewModel ViewModel
         {
             get;
@@ -16,7 +20,6 @@ namespace Vacancy_Store.Views.Pages
         public DashboardPage(ViewModels.DashboardViewModel viewModel)
         {
             ViewModel = viewModel;
-
             InitializeComponent();
         }
 
@@ -25,5 +28,20 @@ namespace Vacancy_Store.Views.Pages
             var ResumeWindow = new GRUDResumeWindow();
             ResumeWindow.Show();
         }
+
+        private void Button_Click_1(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var ResumeWindow = new GRUDResumeWindow();
+            ResumeWindow.Show();
+        }
+
+        public List<Resume> Resumes = new List<Resume>()
+            {
+                new Resume() {Id = 1, VacancyName="Программист", AboutMe=" Рассказ о программисте", LastPlaceOfWork="Слесарь", DesiredSalary="300000", Img="test1"},
+                new Resume() {Id = 2, VacancyName="Слесарь", AboutMe=" Рассказ о Слесаря", LastPlaceOfWork="Слесарь", DesiredSalary="50000", Img="test2"},
+                new Resume() {Id = 3, VacancyName="Фермер", AboutMe=" Рассказ о Фермере", LastPlaceOfWork="Слесарь", DesiredSalary="40000", Img="test3"}
+            };
+
+
     }
 }

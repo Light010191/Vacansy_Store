@@ -4418,11 +4418,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
+      "projectUniqueName": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj",
       "projectName": "Vacancy_Store",
-      "projectPath": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
+      "projectPath": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj",
       "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-      "outputPath": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\obj\\",
+      "outputPath": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4504,13 +4504,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -22,31 +22,75 @@
         <!--<ui:Button Grid.Column="0" Command="{Binding ViewModel.CounterIncrementCommand, Mode=OneWay}" Content="Click me!" Icon="Fluent24" />
         <TextBlock Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center" Text="{Binding ViewModel.Counter, Mode=OneWay}" />-->
         <Grid.RowDefinitions>
-            <RowDefinition Height="150"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="400"/>
         </Grid.RowDefinitions>
         
-        <StackPanel Grid.Row="1"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-            
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                
-                <Button Grid.Row="2"
-                        Content="Резюме"
-                        Click="Button_Click"/>
-                
-            </Grid>
+        <StackPanel Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+                    
+            <Button Content="Добавить резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
+
+            <Button Content="Редактировать резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
+            <Button Content="Удалить резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
         </StackPanel>
+
+        <ListView Grid.Row="1">
+            
+            
+            
+        </ListView>
         
+        
+        <!--<ListView Grid.Row="1"
+                  ItemsSource="{Binding Path=Resumes}"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  x:Name="ResumeLV">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel HorizontalAlignment="Center"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Viewbox MaxWidth="200">
+                        <Border Background="White"
+                                CornerRadius="25"
+                                BorderBrush="Black"
+                                BorderThickness="1"
+                                Width="170"
+                                Height="170">
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock HorizontalAlignment="Center"
+                               FontWeight="Bold"
+                               TextAlignment="Center">
+                                <Run FontSize="20" Text="{Binding Path=VacancyName, StringFormat='Вакансия {0}'}"/>
+                                </TextBlock>
+                                <StackPanel Grid.Row="1">
+                                    <TextBlock Text="{Binding Path=DesiredSalary, StringFormat='Желаемая зарплата: {0}'}"
+                                               TextWrapping="Wrap"/>
+                                    <Button Content="Подробнее" 
+                                            Click="Button_Click_1"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </Viewbox>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView >-->
+
     </Grid>
 </ui:UiPage>
