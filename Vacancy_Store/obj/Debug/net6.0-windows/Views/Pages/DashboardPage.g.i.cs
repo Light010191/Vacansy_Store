@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\DashboardPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "7C899B677E2CD7527385E8A47D029ECFD1B297C8"
 =======
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\DashboardPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "F55ECB48F5538AD9AEF8E5AC2C0745BD05F4BA18"
 >>>>>>> 
 =======
+=======
+>>>>>>> 
 =======
 >>>>>>> 
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\DashboardPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "D0259B7BB57690C6D68B4E5D55D601393E8804F4"
@@ -18,6 +21,11 @@
 =======
 =======
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\DashboardPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "11419A484921C38E7A3222C2B93AFAE4A2AD12A6"
+>>>>>>> 
+<<<<<<< HEAD
+=======
+=======
+﻿#pragma checksum "..\..\..\..\..\Views\Pages\DashboardPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "F55ECB48F5538AD9AEF8E5AC2C0745BD05F4BA18"
 >>>>>>> 
 >>>>>>> 
 //------------------------------------------------------------------------------
@@ -244,7 +252,7 @@ namespace Vacancy_Store.Views.Pages {
             {
             case 5:
             
-            #line 79 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
+            #line 83 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default

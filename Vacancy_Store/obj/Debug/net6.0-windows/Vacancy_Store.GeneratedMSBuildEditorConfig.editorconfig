@@ -8,16 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vacancy_Store
-<<<<<<< HEAD
 build_property.ProjectDir = D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-build_property.ProjectDir = D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\
-=======
-build_property.ProjectDir = D:\Lesson\проект\новые ветки\Vacancy_Store\
->>>>>>> реализация резюме
-=======
-build_property.ProjectDir = D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\
->>>>>>> 
->>>>>>> 
