@@ -225,3 +225,8 @@ AppPackages/
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
 /Vacancy_Store/ViewModels/MainWindowViewModel.cs
+/.vs/Vacancy_Store/v17/.suo
+/Vacancy_Store/obj/Debug/net6.0-windows/Vacancy_Store.pdb
+/Vacancy_Store/obj/Debug/net6.0-windows/Vacancy_Store.dll
+/Vacancy_Store/bin/Debug/net6.0-windows/Vacancy_Store.pdb
+/Vacancy_Store/bin/Debug/net6.0-windows/Vacancy_Store.dll
