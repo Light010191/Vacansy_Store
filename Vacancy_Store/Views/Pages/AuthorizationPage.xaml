@@ -42,7 +42,10 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
+<<<<<<< HEAD
                     <RowDefinition/>
+=======
+>>>>>>> 
                 </Grid.RowDefinitions>
                 <TextBlock Text="Логин"
                            HorizontalAlignment="Center"
@@ -73,14 +76,22 @@
                 <Button Grid.Row="3"
                         Content="Войти"
                         Margin="5"
+<<<<<<< HEAD
                         HorizontalAlignment="Right"
                         Click="Ok_Click"/>
+=======
+                        Click="Button_Click"/>
+>>>>>>> 
                 <Button Grid.Column="1"
                         Grid.Row="3"
                         Content="Забыли пароль"
                         Margin="5"/>
                 <Button Grid.Column="1"
+<<<<<<< HEAD
                         Grid.Row="4"
+=======
+                        Grid.Row="3"
+>>>>>>> 
                         Content="Регистрация"
                         Margin="5"
                         Click="Reg_Click"/>

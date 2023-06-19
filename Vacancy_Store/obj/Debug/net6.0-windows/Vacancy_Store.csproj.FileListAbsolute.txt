@@ -296,8 +296,11 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 
 =======
+=======
+>>>>>>> 
 =======
 >>>>>>> 
 =======
@@ -311,6 +314,7 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,5 +347,7 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 >>>>>>> 
 =======
 >>>>>>> реализация резюме
+=======
+>>>>>>> 
 =======
 >>>>>>> 
