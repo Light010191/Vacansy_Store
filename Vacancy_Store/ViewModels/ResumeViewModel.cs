@@ -11,8 +11,8 @@ namespace Vacancy_Store.ViewModels
     {
         private bool _isInitialized = false;
 
-        [ObservableProperty]
-        private IEnumerable<DataColor> _colors;
+        //[ObservableProperty]
+        //private IEnumerable<DataColor> _colors;
 
         public void OnNavigatedTo()
         {
