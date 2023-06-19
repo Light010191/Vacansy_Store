@@ -1,6 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.ObjectModel;
+using Vacancy_Store.Models;
+using Vacancy_Store.Services;
 using Wpf.Ui.Common;
 using Wpf.Ui.Controls;
 using Wpf.Ui.Controls.Interfaces;
@@ -11,6 +14,8 @@ namespace Vacancy_Store.ViewModels
     public partial class MainWindowViewModel : ObservableObject
     {
         private bool _isInitialized = false;
+
+        private UserService userService;
 
         [ObservableProperty]
         private string _applicationTitle = String.Empty;
@@ -175,10 +180,7 @@ namespace Vacancy_Store.ViewModels
         {
             get => aboutVacansy;
             set { aboutVacansy = value; OnPropertyChanged(); }
-        }
-
-        [ObservableProperty]
-        private Company newCompany = new();
+        }        
         
         public IAsyncRelayCommand GetAllVacanciesCommand { get ; }
         public IAsyncRelayCommand AddNewCompanyCommand { get; }
@@ -186,11 +188,51 @@ namespace Vacancy_Store.ViewModels
         public IAsyncRelayCommand AddNewResumeCommand { get; }
         public IAsyncRelayCommand AddNewVacancyCommand { get; }
         public IAsyncRelayCommand GetAllResumesCommand { get; }
-                   
+
         public MainWindowViewModel(INavigationService navigationService)
         {
             if (!_isInitialized)
                 InitializeViewModel();
+            GetAllVacanciesCommand = new AsyncRelayCommand(x => userService.GetAllVacancies());
+            GetAllResumesCommand = new AsyncRelayCommand(x => userService.GetAllResumes());
+            AddNewCompanyCommand = new AsyncRelayCommand(x => userService.AddNewCompany((
+                new Company
+                {
+                    Login = LoginCompany,
+                    NameCompany = NameCompany,
+                    Password = PasswordCompany,
+                    AboutCompany = AboutCompany,
+                    Img = ImgCompany,
+                    Salt = "1"
+                })));
+            AddNewEmployeeCommand = new AsyncRelayCommand(x => userService.AddNewEmployee((
+                new JobApplicant
+                {
+                    Login = LoginJobApplicant,
+                    FirstName = FirstName,
+                    LastName = LastName,
+                    Patronymic = Patronymic,
+                    Password = PasswordJobApplicant,
+                    Age = Age,
+                    Email = Email,
+                    PhoneNumber = PhoneNumber,
+                    Salt = "1"
+                })));
+            AddNewResumeCommand = new AsyncRelayCommand(x => userService.AddNewResume(new Resume
+            {
+                VacancyName = VacancyNameForResume,
+                AboutMe = AboutMe,
+                DesiredSalary = DesiredSalary,
+                Img = ImgVacancys,
+                LastPlaceOfWork = LastPlaceOfWork
+            }, MyId));
+            AddNewVacancyCommand = new AsyncRelayCommand(x => userService.AddNewVacancy(new Vacancy
+            {
+                NameVacancy = NameVacancy,
+                Salary = Salary,
+                RequiredWorkExperience = RequiredWorkExperience,
+                AboutVacansy = AboutVacansy
+            }, MyId));
         }
 
         private void InitializeViewModel()
