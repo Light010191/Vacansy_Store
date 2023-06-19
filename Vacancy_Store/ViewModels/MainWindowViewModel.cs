@@ -189,7 +189,7 @@ namespace Vacancy_Store.ViewModels
         [ObservableProperty]
         private Company newCompany = new();
         
-        public IAsyncRelayCommand GetAllVacanciesCommand { get =>GetAllVacanciesCommand;set=> new AsyncRelayCommand(x => userService.GetAllVacancies()); }
+        public IAsyncRelayCommand GetAllVacanciesCommand { get ; }
         public IAsyncRelayCommand AddNewCompanyCommand { get; }
         public IAsyncRelayCommand AddNewEmployeeCommand { get; }
         public IAsyncRelayCommand AddNewResumeCommand { get; }
