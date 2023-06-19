@@ -4412,23 +4412,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stalk\\.nuget\\packages\\": {},
+    "C:\\Users\\Kirill\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
+      "projectUniqueName": "C:\\Users\\Kirill\\source\\repos\\CommandProject\\Vacancy_Store2\\Vacancy_Store2\\Vacancy_Store\\Vacancy_Store.csproj",
       "projectName": "Vacancy_Store",
-      "projectPath": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
-      "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-      "outputPath": "D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\obj\\",
+      "projectPath": "C:\\Users\\Kirill\\source\\repos\\CommandProject\\Vacancy_Store2\\Vacancy_Store2\\Vacancy_Store\\Vacancy_Store.csproj",
+      "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kirill\\source\\repos\\CommandProject\\Vacancy_Store2\\Vacancy_Store2\\Vacancy_Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\stalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4437,6 +4437,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4501,16 +4502,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша D:\\Lesson\\Экзамен\\Vacansy_Store\\Vacancy_Store\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

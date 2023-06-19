@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+C:\Users\Kirill\source\repos\CommandProject\Vacancy_Store2\Vacancy_Store2\Vacancy_Store\obj\Debug\net6.0-windows\
 Vacancy_Store
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
-7-1732468586
+C:\Users\Kirill\source\repos\CommandProject\Vacancy_Store2\Vacancy_Store2\Vacancy_Store\App.xaml
+91608366453
 1882702876
-20201947596
-2222099942174
-Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;
+321447198265
+243-533061631
+Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SearchPage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\SearchWindow.xaml;
 
 False
 

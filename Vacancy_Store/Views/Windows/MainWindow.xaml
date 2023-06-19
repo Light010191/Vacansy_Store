@@ -24,7 +24,27 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-
+        <ListView Grid.Row="1"
+                  Name="Users_ListView"
+                  Width="300"
+                  Height="400">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="{Binding Id}" ContentStringFormat="Код: {0}"/>
+                        <Label Content="{Binding FirstName}" ContentStringFormat="Имя: {0}"/>
+                        <Label Content="{Binding LastName}" ContentStringFormat="Фамилия: {0}"/>
+                        <Label Content="{Binding Patronymic}" ContentStringFormat="Отчество: {0}"/>
+                        <Label Content="{Binding PhoneNumber}" ContentStringFormat="Телефон: {0}"/>
+                        <Label Content="{Binding Email}" ContentStringFormat="Электронная почта: {0}"/>
+                        <Label Content="{Binding Age}" ContentStringFormat="Возраст: {0}"/>
+                        <Label Content="{Binding Login}" ContentStringFormat="Логин: {0}"/>
+                        <Label Content="{Binding Password}" ContentStringFormat="Пароль: {0}"/>
+                        <Label Content="{Binding Salt}" ContentStringFormat="Соль: {0}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <Grid
             x:Name="RootMainGrid"
             Grid.Row="1"
@@ -49,7 +69,8 @@
                         Text="Главная" /> 
                 </StackPanel>
 
-                <ui:AutoSuggestBox Grid.Row="1" Margin="0,0,0,12" />
+                <ui:AutoSuggestBox Grid.Row="1" Margin="0,0,0,12" TextChanged="AutoSuggestBox_TextChanged" Cursor="IBeam" 
+                                   x:Name="AutoSuggest" />
 
                 <!--  This is the main navigation of the application.  -->
                 <ui:NavigationFluent

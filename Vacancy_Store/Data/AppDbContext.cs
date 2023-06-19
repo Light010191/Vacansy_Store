@@ -11,6 +11,9 @@ namespace Vacancy_Store.Data
 {
     public class AppDbContext : DbContext
     {
+        /*internal static object? JobApplicant = null;
+        internal static object? db=null;*/
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
