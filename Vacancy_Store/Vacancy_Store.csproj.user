@@ -24,6 +24,7 @@
     </Page>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 
@@ -40,6 +41,8 @@
       <SubType>Designer</SubType>
     </Page>
 >>>>>>> 
+>>>>>>> 
+=======
 >>>>>>> 
     <Page Update="Views\Windows\Registr.xaml">
       <SubType>Designer</SubType>
