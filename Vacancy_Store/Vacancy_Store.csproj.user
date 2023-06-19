@@ -5,6 +5,12 @@
     <Compile Update="Views\Windows\GRUDResumeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Windows\Registr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\Select.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Pages\DashboardPage.xaml">
@@ -14,6 +20,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Windows\GRUDResumeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\Registr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\Select.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

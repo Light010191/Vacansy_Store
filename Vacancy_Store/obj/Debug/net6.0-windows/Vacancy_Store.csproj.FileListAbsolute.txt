@@ -267,4 +267,11 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vacancy_Store.pdb
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vacancy_Store.genruntimeconfig.cache
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\ref\Vacancy_Store.dll
+<<<<<<< HEAD
+>>>>>>> 
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr.g.cs
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr.baml
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Select.g.cs
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Select.baml
 >>>>>>> 
