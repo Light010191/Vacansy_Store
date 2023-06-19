@@ -22,7 +22,7 @@
         <!--<ui:Button Grid.Column="0" Command="{Binding ViewModel.CounterIncrementCommand, Mode=OneWay}" Content="Click me!" Icon="Fluent24" />
         <TextBlock Grid.Column="1" Margin="12,0,0,0" VerticalAlignment="Center" Text="{Binding ViewModel.Counter, Mode=OneWay}" />-->
         <Grid.RowDefinitions>
-            <RowDefinition Height="150"/>
+            <RowDefinition Height="100"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         
@@ -38,6 +38,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
+                    <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
@@ -59,11 +60,17 @@
                 <Button Grid.Row="2"
                         Content="Войти"
                         Margin="5"
-                        Command="{Binding ViewModel.CounterIncrementCommand, Mode=OneWay}"/>
+                        Click="Button_Click"/>
                 <Button Grid.Column="1"
                         Grid.Row="2"
                         Content="Забыли пароль"
                         Margin="5"/>
+                <Button Grid.Column="1"
+                        Grid.Row="3"
+                        Content="Регистрация"
+                        Margin="5"
+                        Click="Reg_Click"/>
+
             </Grid>
         </StackPanel>
         

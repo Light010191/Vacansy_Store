@@ -26,27 +26,71 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         
-        <StackPanel Grid.Row="1"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-            
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                
-                <Button Grid.Row="2"
-                        Content="Резюме"
-                        Click="Button_Click"/>
-                
-            </Grid>
+        <StackPanel Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+                    
+            <Button Content="Добавить резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
+
+            <Button Content="Редактировать резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
+            <Button Content="Удалить резюме"
+                    Click="Button_Click"
+                    Margin="20 0 0 0"/>
         </StackPanel>
-        
+
+        <ListView Grid.Row="1"
+                  ItemsSource="{Binding Path=Resumes}"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  x:Name="ResumeLV"
+                  Margin="0 50 0 30">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel HorizontalAlignment="Center"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Viewbox MaxWidth="250">
+                        <Border Background="White"
+                                CornerRadius="25"
+                                BorderBrush="Black"
+                                BorderThickness="1"
+                                Width="170"
+                                Height="170">
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock HorizontalAlignment="Center"
+                                FontWeight="Bold"
+                                TextAlignment="Center"
+                                Foreground="Black"
+                                TextWrapping="Wrap">
+                                <Run FontSize="14"  Text="{Binding Path=VacancyName, StringFormat='Вакансия {0}'}"/>
+                                </TextBlock>
+                                <StackPanel Grid.Row="1">
+                                    <TextBlock Text="{Binding Path=DesiredSalary, StringFormat='Желаемая зарплата: {0}'}"
+                                               TextWrapping="Wrap"
+                                               Foreground="Black"/>
+                                    <Button Content="Подробнее" 
+                                            Click="Button_Click_1"
+                                            BorderBrush="Black"
+                                            Background="White"
+                                            Foreground="Black"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </Viewbox>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView >
+
     </Grid>
 </ui:UiPage>
