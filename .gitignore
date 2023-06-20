@@ -224,3 +224,5 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+/Vacancy_Store/obj/Debug/net6.0-windows/Vacancy_Store_MarkupCompile.i.cache
+/Vacancy_Store/obj/Debug/net6.0-windows/Vacancy_Store_MarkupCompile.i.cache
