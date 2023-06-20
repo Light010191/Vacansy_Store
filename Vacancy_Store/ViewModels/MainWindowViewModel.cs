@@ -237,7 +237,7 @@ namespace Vacancy_Store.ViewModels
 
         private void InitializeViewModel()
         {
-            ApplicationTitle = "WPF UI - Vacancy_Store";
+            ApplicationTitle = "Vacancy Store";
 
             NavigationItems = new ObservableCollection<INavigationControl>
             {
@@ -250,10 +250,24 @@ namespace Vacancy_Store.ViewModels
                 },
                 new NavigationItem()
                 {
-                    Content = "Data",
+                    Content = "Авторизация",
+                    PageTag = "autorization",
+                    Icon = SymbolRegular.Home24,
+                    PageType = typeof(Views.Pages.AuthorizationPage)
+                },
+                new NavigationItem()
+                {
+                    Content = "Вакансии",
                     PageTag = "data",
                     Icon = SymbolRegular.DataHistogram24,
                     PageType = typeof(Views.Pages.DataPage)
+                },
+                new NavigationItem()
+                {
+                    Content = "Резюме",
+                    PageTag = "resume",
+                    Icon = SymbolRegular.DeveloperBoard24,
+                    PageType = typeof(Views.Pages.ResumePage)
                 }
             };
 
