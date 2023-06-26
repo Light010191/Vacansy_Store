@@ -42,6 +42,7 @@ namespace Vacancy_Store.Views.Windows
             _context.Age = Age.Text;
             _context.Salt = "a";
             UserService userService = new UserService();
+<<<<<<< HEAD
 
             await userService.AddNewEmployee(_context);
 
@@ -53,6 +54,11 @@ namespace Vacancy_Store.Views.Windows
 
             this.Close();
 
+=======
+            await userService.AddNewEmployee(_context);
+
+            this.Close();
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
             
         }
 
@@ -61,6 +67,9 @@ namespace Vacancy_Store.Views.Windows
             this.Close();
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
     }
 }

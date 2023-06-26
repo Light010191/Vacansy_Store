@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 
+=======
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
 ﻿using System.Windows;
 using Vacancy_Store.Services;
 using Vacancy_Store.ViewModels;
@@ -35,6 +38,7 @@ namespace Vacancy_Store.Views.Pages
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
         {
@@ -44,6 +48,11 @@ namespace Vacancy_Store.Views.Pages
         {
             if(Log.Text != "" && Pass.Text != "")
 >>>>>>> 
+=======
+        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if(Log.Text != "" && Pass.Text != "")
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
             {
                 if (Pred.IsChecked == true)
                 {
@@ -63,11 +72,16 @@ namespace Vacancy_Store.Views.Pages
                 MessageBox.Show("Введите логин и пароль");
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
             
 >>>>>>> 
+=======
+            
+            
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
         }
     }
 }
