@@ -30,9 +30,6 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
-using Vacancy_Store.Helpers;
-using Vacancy_Store.Models;
-using Vacancy_Store.Views.Pages;
 using Vacancy_Store.Views.Windows;
 
 

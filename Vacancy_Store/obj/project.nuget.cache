@@ -1,26 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dgSpecHash": "X7NxmiVS5AovcaT6tE0wcr1Pg/xbCF4VX69wsLJlI2DDh/C0WNdbEbel9dhgNp2jYLMGo9wF/4us4It38JF19w==",
   "success": true,
   "projectFilePath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
-=======
-  "dgSpecHash": "+FYMHARGwimKvqi8OMesIAiPnjt4IdAe+z6GI798qdCSOsRxtqdK4+Utb22VE++mNWNL8rVZ/3PUHeV1q50Gjg==",
-  "success": true,
-  "projectFilePath": "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj",
->>>>>>> реализация резюме
-=======
-  "dgSpecHash": "X7NxmiVS5AovcaT6tE0wcr1Pg/xbCF4VX69wsLJlI2DDh/C0WNdbEbel9dhgNp2jYLMGo9wF/4us4It38JF19w==",
-  "success": true,
-  "projectFilePath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
->>>>>>> 
-=======
-  "dgSpecHash": "X7NxmiVS5AovcaT6tE0wcr1Pg/xbCF4VX69wsLJlI2DDh/C0WNdbEbel9dhgNp2jYLMGo9wF/4us4It38JF19w==",
-  "success": true,
-  "projectFilePath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
->>>>>>> реализация резюме
   "expectedPackageFiles": [
     "C:\\Users\\stalk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\stalk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
