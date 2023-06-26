@@ -36,4 +36,10 @@
     <Resource Include="Assets\applicationIcon-256.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Views\Windows\Registr2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

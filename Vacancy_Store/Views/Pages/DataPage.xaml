@@ -17,7 +17,7 @@
     mc:Ignorable="d">
 
     <Grid>
-        <ui:VirtualizingItemsControl
+        <!--<ui:VirtualizingItemsControl
             Foreground="{DynamicResource TextFillColorSecondaryBrush}"
             ItemsSource="{Binding ViewModel.Colors, Mode=OneWay}"
             VirtualizingPanel.CacheLengthUnit="Item">
@@ -36,6 +36,77 @@
                         Icon="Fluent24" />
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
-        </ui:VirtualizingItemsControl>
+        </ui:VirtualizingItemsControl>-->
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="400"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+
+            <Button Content="Добавить вакансию"
+                    Margin="20 0 0 0"/>
+
+            <Button Content="Редактировать вакансию"
+                    Margin="20 0 0 0"/>
+            <Button Content="Удалить вакансию"
+                    Margin="20 0 0 0"/>
+        </StackPanel>
+
+        <ListView Grid.Row="1"
+                  ItemsSource="{Binding Path=Vacansys}"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  x:Name="ResumeLV"
+                  Margin="0 50 0 30">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel HorizontalAlignment="Center"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Viewbox MaxWidth="250">
+                        <Border Background="White"
+                                CornerRadius="25"
+                                BorderBrush="Black"
+                                BorderThickness="1"
+                                Width="170"
+                                Height="170">
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <TextBlock HorizontalAlignment="Center"
+                                FontWeight="Bold"
+                                TextAlignment="Center"
+                                Foreground="Black"
+                                TextWrapping="Wrap">
+                                <Run FontSize="14"  Text="{Binding Path=NameVacancy}"/>
+                                </TextBlock>
+                                <StackPanel Grid.Row="1">
+                                    <TextBlock Text="{Binding Path=Salary}"
+                                               TextWrapping="Wrap"
+                                               Foreground="Black"/>
+                                    <TextBlock Text="{Binding Path=RequiredWorkExperience, StringFormat='Опыт {0}'}"
+                                               TextWrapping="Wrap"
+                                               Foreground="Black"/>
+                                    <Button Content="Подробнее" 
+                                            BorderBrush="Black"
+                                            Background="White"
+                                            Foreground="Black"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </Viewbox>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView >
+        
     </Grid>
 </ui:UiPage>
