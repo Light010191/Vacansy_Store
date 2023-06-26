@@ -4,7 +4,19 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+>>>>>>> 
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\
+>>>>>>> f117a251696548c9eaa597a2223669449686bac6
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
 Vacancy_Store
 none
 false
@@ -13,9 +25,13 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 <<<<<<< HEAD
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\App.xaml
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27,6 +43,8 @@ D:\Lesson\проект\новые ветки\Vacancy_Store\App.xaml
 >>>>>>> реализация резюме
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
+=======
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
 >>>>>>> 
 7-1732468586
 =======
@@ -56,11 +74,21 @@ Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\Da
 Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\Registr.xaml;Views\Windows\Registr2.xaml;Views\Windows\Select.xaml;
 >>>>>>> 
 =======
+<<<<<<< HEAD
 Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\Registr.xaml;Views\Windows\Select.xaml;
 >>>>>>> 
 =======
 Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\Registr.xaml;Views\Windows\Registr2.xaml;Views\Windows\Select.xaml;
 >>>>>>> 
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\App.xaml
+10-268099554
+1882702876
+36278471561
+243-2092863650
+Views\Pages\AuthorizationPage.xaml;Views\Pages\DashboardPage.xaml;Views\Pages\DataPage.xaml;Views\Pages\ResumePage.xaml;Views\Pages\SettingsPage.xaml;Views\Windows\GRUDResumeWindow.xaml;Views\Windows\MainWindow.xaml;Views\Windows\Registr.xaml;Views\Windows\Registr2.xaml;Views\Windows\Select.xaml;
+>>>>>>> f117a251696548c9eaa597a2223669449686bac6
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
 
 False
 

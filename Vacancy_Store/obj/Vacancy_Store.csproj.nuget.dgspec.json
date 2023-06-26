@@ -3,6 +3,9 @@
   "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
     "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj": {}
   },
   "projects": {
@@ -14,6 +17,7 @@
         "projectPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\Vacancy_Store.csproj",
         "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
         "outputPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\obj\\",
+<<<<<<< HEAD
 =======
     "D:\\Lesson\\проект\\новые ветки\\Vacancy_Store\\Vacancy_Store.csproj": {}
 =======
@@ -34,6 +38,8 @@
 =======
         "outputPath": "D:\\Lesson\\проект\\Новая папка\\Vacancy_Store\\Vacancy_Store\\obj\\",
 >>>>>>> 
+=======
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
