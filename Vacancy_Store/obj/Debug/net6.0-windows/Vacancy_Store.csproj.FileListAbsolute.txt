@@ -64,7 +64,10 @@ D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vi
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\GRUDResumeWindow.g.cs
 D:\Lesson\Экзамен\Vacansy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\GRUDResumeWindow.baml
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f117a251696548c9eaa597a2223669449686bac6
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.exe
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.deps.json
 D:\Lesson\проект\новые ветки\Vacancy_Store\bin\Debug\net6.0-windows\Vacancy_Store.runtimeconfig.json
@@ -268,15 +271,23 @@ D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Deb
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Vacancy_Store.genruntimeconfig.cache
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\ref\Vacancy_Store.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 
 =======
+=======
+>>>>>>> f117a251696548c9eaa597a2223669449686bac6
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr.g.cs
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr.baml
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Select.g.cs
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Select.baml
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 
 =======
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.g.cs
 D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.baml
 >>>>>>> 
+=======
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.g.cs
+D:\Lesson\проект\Новая папка\Vacancy_Store\Vacancy_Store\obj\Debug\net6.0-windows\Views\Windows\Registr2.baml
+>>>>>>> f117a251696548c9eaa597a2223669449686bac6

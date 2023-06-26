@@ -88,7 +88,23 @@ namespace Vacancy_Store.Views.Pages {
             {
             case 1:
             
-            #line 46 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
+            #line 35 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 2:
+            
+            #line 39 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            
+            #line 42 "..\..\..\..\..\Views\Pages\DashboardPage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default

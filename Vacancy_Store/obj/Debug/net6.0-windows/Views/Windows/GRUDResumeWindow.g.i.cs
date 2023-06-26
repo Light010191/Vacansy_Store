@@ -53,7 +53,7 @@ namespace Vacancy_Store.Views.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Vacancy_Store;V1.0.0.0;component/views/windows/grudresumewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Vacancy_Store;component/views/windows/grudresumewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Windows\GRUDResumeWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
