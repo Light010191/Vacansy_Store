@@ -42,6 +42,7 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
+                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <TextBlock Text="Логин"
                            HorizontalAlignment="Center"
@@ -53,20 +54,33 @@
                            VerticalAlignment="Center"
                            FontSize="18"/>
                 <TextBox Grid.Column="1"
-                         Margin="3"/>
+                         Margin="3"
+                         x:Name="Log"/>
                 <TextBox Grid.Row="1"
                          Grid.Column="1"
-                         Margin="3"/>
-                <Button Grid.Row="2"
+                         Margin="3"
+                         x:Name="Pass"/>
+                <RadioButton Grid.Row="2"
+                             Grid.Column="0"
+                             Content="Предпрениматель"
+                             Margin="5"
+                             x:Name="Pred"/>
+                <RadioButton Grid.Row="2"
+                             Grid.Column="1"
+                             Content="Соискатель"
+                             Margin="5"
+                             x:Name="hanter"/>
+                <Button Grid.Row="3"
                         Content="Войти"
                         Margin="5"
-                        Click="Button_Click"/>
+                        HorizontalAlignment="Right"
+                        Click="Ok_Click"/>
                 <Button Grid.Column="1"
-                        Grid.Row="2"
+                        Grid.Row="3"
                         Content="Забыли пароль"
                         Margin="5"/>
                 <Button Grid.Column="1"
-                        Grid.Row="3"
+                        Grid.Row="4"
                         Content="Регистрация"
                         Margin="5"
                         Click="Reg_Click"/>

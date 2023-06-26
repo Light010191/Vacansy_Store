@@ -19,14 +19,13 @@ namespace Vacancy_Store.Views.Windows
     /// <summary>
     /// Логика взаимодействия для Registr.xaml
     /// </summary>
-    public partial class Registr : Window
+    public partial class Registr2 : Window
     {
-
-        public JobApplicant _context;
-        public Registr()
+        public Company _context;
+        public Registr2()
         {
             InitializeComponent();
-            _context = new JobApplicant();
+            _context = new Company();
         }
 
 
@@ -34,15 +33,12 @@ namespace Vacancy_Store.Views.Windows
         {
             _context.Login = Login.Text;
             _context.Password = Password.Text;
-            _context.FirstName = FirstName.Text;
-            _context.LastName = LastName.Text;
-            _context.Patronymic = Patronymic.Text;
-            _context.Email = Email.Text;
-            _context.PhoneNumber = PhoneNumber.Text;
-            _context.Age = Age.Text;
+            _context.NameCompany = CompanyName.Text;
             _context.Salt = "a";
+            _context.AboutCompany = AboutCompany.Text;
+            _context.Img = "a";
             UserService userService = new UserService();
-            await userService.AddNewEmployee(_context);
+            await userService.AddNewCompany(_context);
 
             this.Close();
             
