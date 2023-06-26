@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 
 ﻿using System.Windows;
 using Vacancy_Store.Services;
 using Vacancy_Store.ViewModels;
@@ -31,10 +34,16 @@ namespace Vacancy_Store.Views.Pages
 
         }
 
+<<<<<<< HEAD
 
         private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             if (Log.Text != "" && Pass.Text != "")
+=======
+        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if(Log.Text != "" && Pass.Text != "")
+>>>>>>> 
             {
                 if (Pred.IsChecked == true)
                 {
@@ -53,7 +62,12 @@ namespace Vacancy_Store.Views.Pages
             {
                 MessageBox.Show("Введите логин и пароль");
             }
+<<<<<<< HEAD
 
+=======
+            
+            
+>>>>>>> 
         }
     }
 }

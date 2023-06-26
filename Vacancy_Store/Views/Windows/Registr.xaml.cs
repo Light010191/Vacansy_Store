@@ -42,13 +42,17 @@ namespace Vacancy_Store.Views.Windows
             _context.Age = Age.Text;
             _context.Salt = "a";
             UserService userService = new UserService();
-<<<<<<< HEAD
+
             await userService.AddNewEmployee(_context);
 
             this.Close();
-=======
+
             userService.AddNewEmployee(_context);
->>>>>>> 
+
+            await userService.AddNewEmployee(_context);
+
+            this.Close();
+
             
         }
 
@@ -56,9 +60,7 @@ namespace Vacancy_Store.Views.Windows
         {
             this.Close();
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> 
+
     }
 }
