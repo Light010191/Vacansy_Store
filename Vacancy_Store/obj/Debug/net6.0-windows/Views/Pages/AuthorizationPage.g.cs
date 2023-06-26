@@ -1,10 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "70413B5C0ADAF9397426D33B25E9BF3A11A07571"
 =======
+=======
+>>>>>>> 
 <<<<<<< HEAD
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0A7CB4A749A14A3309EE9BAA8BE28D2B80BB31D3"
 =======
 ﻿#pragma checksum "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "70413B5C0ADAF9397426D33B25E9BF3A11A07571"
+>>>>>>> 
+<<<<<<< HEAD
+=======
+=======
+﻿#pragma checksum "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0A7CB4A749A14A3309EE9BAA8BE28D2B80BB31D3"
 >>>>>>> 
 >>>>>>> 
 //------------------------------------------------------------------------------
@@ -88,11 +96,17 @@ namespace Vacancy_Store.Views.Pages {
             {
             case 1:
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             #line 63 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 
+>>>>>>> 
             this.Log = ((System.Windows.Controls.TextBox)(target));
             return;
             case 2:
@@ -105,6 +119,7 @@ namespace Vacancy_Store.Views.Pages {
             this.hanter = ((System.Windows.Controls.RadioButton)(target));
             return;
             case 5:
+<<<<<<< HEAD
             
             #line 77 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Ok_Click);
@@ -113,16 +128,26 @@ namespace Vacancy_Store.Views.Pages {
             #line 63 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
 >>>>>>> 
+<<<<<<< HEAD
+=======
+=======
+            
+            #line 77 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Ok_Click);
+>>>>>>> 
 >>>>>>> 
             
             #line default
             #line hidden
             return;
 <<<<<<< HEAD
+<<<<<<< HEAD
             case 2:
             
             #line 72 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
 =======
+=======
+>>>>>>> 
 <<<<<<< HEAD
             case 6:
             
@@ -131,6 +156,13 @@ namespace Vacancy_Store.Views.Pages {
             case 2:
             
             #line 72 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
+>>>>>>> 
+<<<<<<< HEAD
+=======
+=======
+            case 6:
+            
+            #line 86 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
 >>>>>>> 
 >>>>>>> 
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Reg_Click);
