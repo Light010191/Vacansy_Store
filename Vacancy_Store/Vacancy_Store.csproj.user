@@ -5,6 +5,12 @@
     <Compile Update="Views\Windows\GRUDResumeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\Windows\Registr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Windows\Select.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\Pages\DashboardPage.xaml">
@@ -14,6 +20,62 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Windows\GRUDResumeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 
+<<<<<<< HEAD
+=======
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+    <Page Update="Views\Windows\Registr2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+=======
+>>>>>>> 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    <Page Update="Views\Windows\Registr2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+>>>>>>> 
+>>>>>>> 
+=======
+>>>>>>> 
+=======
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+=======
+    <Page Update="Views\Windows\Registr2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+>>>>>>> 
+=======
+<<<<<<< HEAD
+>>>>>>> 
+=======
+    <Page Update="Views\Windows\Registr2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+>>>>>>> 
+=======
+    <Page Update="Views\Windows\Registr2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+>>>>>>> 0a82a9093235d4dfb827be938726446d04888221
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+    <Page Update="Views\Windows\Registr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Windows\Select.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

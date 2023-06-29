@@ -1,4 +1,15 @@
-﻿using Wpf.Ui.Common.Interfaces;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 
+=======
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+﻿using System.Windows;
+using Vacancy_Store.Services;
+using Vacancy_Store.ViewModels;
+using Vacancy_Store.Views.Windows;
+using Wpf.Ui.Common.Interfaces;
 
 namespace Vacancy_Store.Views.Pages
 {
@@ -17,6 +28,60 @@ namespace Vacancy_Store.Views.Pages
             ViewModel = viewModel;
 
             InitializeComponent();
+        }
+
+        private void Reg_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var sel = new Select();
+            sel.Show();
+
+        }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if (Log.Text != "" && Pass.Text != "")
+=======
+        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if(Log.Text != "" && Pass.Text != "")
+>>>>>>> 
+=======
+        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            if(Log.Text != "" && Pass.Text != "")
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+            {
+                if (Pred.IsChecked == true)
+                {
+                    MessageBox.Show("Предпрениматель");
+                }
+                if (hanter.IsChecked == true)
+                {
+                    MessageBox.Show("Hanter");
+                }
+                if (hanter.IsChecked == false && Pred.IsChecked == false)
+                {
+                    MessageBox.Show("Выберете категорию");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Введите логин и пароль");
+            }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+            
+            
+>>>>>>> 
+=======
+            
+            
+>>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
         }
     }
 }

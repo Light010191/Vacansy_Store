@@ -9,9 +9,7 @@ namespace Vacancy_Store.ViewModels
 {
     public partial class AuthorizationViewModel : ObservableObject, INavigationAware
     {
-        [ObservableProperty]
-        private int _counter = 0;
-
+        
         public void OnNavigatedTo()
         {
         }
@@ -25,5 +23,7 @@ namespace Vacancy_Store.ViewModels
         {
             
         }
+
+        
     }
 }
