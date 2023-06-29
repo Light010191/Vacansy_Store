@@ -13,18 +13,18 @@ namespace Vacancy_Store.Services
 {
     public class UserService
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext _context ;
         public UserService()
         {
-            
+
         }
 
-        public async Task<bool> AddNewCompany(Company company)
+        public async Task<Company> AddNewCompany(Company company)
         {   
             _context.Companies.Add(company);
 
             await _context.SaveChangesAsync();
-            return true;
+            return company;
         }
 
         public async Task<bool> AddNewEmployee(JobApplicant employee)
