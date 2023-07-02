@@ -15,7 +15,7 @@ namespace Vacancy_Store.ViewModels
     {
         private bool _isInitialized = false;
 
-        private UserService userService;
+        private UserService userService =new UserService();
 
         [ObservableProperty]
         private string _applicationTitle = String.Empty;
@@ -241,13 +241,13 @@ namespace Vacancy_Store.ViewModels
 
             NavigationItems = new ObservableCollection<INavigationControl>
             {
-                //new NavigationItem()
-                //{
-                //    Content = "Home",
-                //    PageTag = "dashboard",
-                //    Icon = SymbolRegular.Home24,
-                //    PageType = typeof(Views.Pages.DashboardPage)
-                //},
+                new NavigationItem()
+                {
+                    Content = "Home",
+                    PageTag = "dashboard",
+                    Icon = SymbolRegular.Home24,
+                    PageType = typeof(Views.Pages.DashboardPage)
+                },
                 new NavigationItem()
                 {
                     Content = "Авторизация",
@@ -255,20 +255,20 @@ namespace Vacancy_Store.ViewModels
                     Icon = SymbolRegular.Home24,
                     PageType = typeof(Views.Pages.AuthorizationPage)
                 },
-                //new NavigationItem()
-                //{
-                //    Content = "Вакансии",
-                //    PageTag = "data",
-                //    Icon = SymbolRegular.DataHistogram24,
-                //    PageType = typeof(Views.Pages.DataPage)
-                //},
-                //new NavigationItem()
-                //{
-                //    Content = "Резюме",
-                //    PageTag = "resume",
-                //    Icon = SymbolRegular.DeveloperBoard24,
-                //    PageType = typeof(Views.Pages.ResumePage)
-                //}
+                new NavigationItem()
+                {
+                    Content = "Вакансии",
+                    PageTag = "data",
+                    Icon = SymbolRegular.DataHistogram24,
+                    PageType = typeof(Views.Pages.DataPage)
+                },
+                new NavigationItem()
+                {
+                    Content = "Резюме",
+                    PageTag = "resume",
+                    Icon = SymbolRegular.DeveloperBoard24,
+                    PageType = typeof(Views.Pages.ResumePage)
+                }
             };
 
             NavigationFooter = new ObservableCollection<INavigationControl>

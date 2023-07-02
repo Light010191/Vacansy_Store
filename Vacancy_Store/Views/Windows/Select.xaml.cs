@@ -30,5 +30,12 @@ namespace Vacancy_Store.Views.Windows
             reg.Show();
             this.Close();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var reg = new Registr2();
+            reg.Show();
+            this.Close();
+        }
     }
 }

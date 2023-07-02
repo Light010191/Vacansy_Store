@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 
-=======
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
 ﻿using System.Windows;
+using Vacancy_Store.Models;
 using Vacancy_Store.Services;
 using Vacancy_Store.ViewModels;
 using Vacancy_Store.Views.Windows;
@@ -18,9 +12,11 @@ namespace Vacancy_Store.Views.Pages
     /// </summary>
     public partial class AuthorizationPage : INavigableView<ViewModels.AuthorizationViewModel>
     {
+        private UserService userService;
         public ViewModels.AuthorizationViewModel ViewModel
         {
             get;
+           
         }
 
         public AuthorizationPage(ViewModels.AuthorizationViewModel viewModel)
@@ -28,6 +24,7 @@ namespace Vacancy_Store.Views.Pages
             ViewModel = viewModel;
 
             InitializeComponent();
+            userService = new UserService();
         }
 
         private void Reg_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -35,32 +32,36 @@ namespace Vacancy_Store.Views.Pages
             var sel = new Select();
             sel.Show();
 
-        }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            if (Log.Text != "" && Pass.Text != "")
-=======
-        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
+        }  
+        private async void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             if(Log.Text != "" && Pass.Text != "")
->>>>>>> 
-=======
-        private void Ok_Click(object sender, System.Windows.RoutedEventArgs e)
-        {
-            if(Log.Text != "" && Pass.Text != "")
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
+
             {
                 if (Pred.IsChecked == true)
                 {
-                    MessageBox.Show("Предпрениматель");
+                   var company= await userService.GetCompany(Log.Text, Pass.Text);
+                    if (company != null)
+                    {
+                        MessageBox.Show("Добро пожаловать " + company.NameCompany);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Пользователь не найден");
+                    }
                 }
                 if (hanter.IsChecked == true)
                 {
-                    MessageBox.Show("Hanter");
+                   var employee= await userService.GetEmployee(Log.Text, Pass.Text);
+                    if (employee!=null)
+                    {
+                        MessageBox.Show("Добро пожаловать " + employee.FirstName);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Пользователь не найден");
+                    }
+                    
                 }
                 if (hanter.IsChecked == false && Pred.IsChecked == false)
                 {
@@ -71,17 +72,6 @@ namespace Vacancy_Store.Views.Pages
             {
                 MessageBox.Show("Введите логин и пароль");
             }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
-            
->>>>>>> 
-=======
-            
-            
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
         }
     }
 }

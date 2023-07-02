@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Vacancy_Store.Models;
+using Vacancy_Store.Services;
 using Vacancy_Store.ViewModels;
 using Vacancy_Store.Views.Windows;
 using Wpf.Ui.Common.Interfaces;
@@ -14,21 +15,23 @@ namespace Vacancy_Store.Views.Pages
     {
 
         public ObservableCollection<Resume> Resumes { get; set; }
+        public ObservableCollection<Vacancy> Vacancies { get; set; }
         public ViewModels.DashboardViewModel ViewModel
         {
             get;
         }
-
+        private UserService userService;
         public DashboardPage(ViewModels.DashboardViewModel viewModel)
         {
+            userService = new UserService();
             ViewModel = viewModel;
-            List<Resume> temp = new List<Resume>()
-            {
-                new Resume() {Id = 1, VacancyName="Программист", AboutMe=" Рассказ о программисте", LastPlaceOfWork="Слесарь", DesiredSalary="300000", Img="test1"},
-                new Resume() {Id = 2, VacancyName="Слесарь", AboutMe=" Рассказ о Слесаря", LastPlaceOfWork="Слесарь", DesiredSalary="50000", Img="test2"},
-                new Resume() {Id = 3, VacancyName="Фермер", AboutMe=" Рассказ о Фермере", LastPlaceOfWork="Слесарь", DesiredSalary="40000", Img="test3"}
-            };
-            Resumes = new ObservableCollection<Resume>(temp);
+            //List<Resume> temp = new List<Resume>()
+            //{
+            //    new Resume() {Id = 1, VacancyName="Программист", AboutMe=" Рассказ о программисте", LastPlaceOfWork="Слесарь", DesiredSalary="300000", Img="test1"},
+            //    new Resume() {Id = 2, VacancyName="Слесарь", AboutMe=" Рассказ о Слесаря", LastPlaceOfWork="Слесарь", DesiredSalary="50000", Img="test2"},
+            //    new Resume() {Id = 3, VacancyName="Фермер", AboutMe=" Рассказ о Фермере", LastPlaceOfWork="Слесарь", DesiredSalary="40000", Img="test3"}
+            //};
+            //Resumes = new ObservableCollection<Resume>(temp);
             InitializeComponent();
         }
 
@@ -44,5 +47,20 @@ namespace Vacancy_Store.Views.Pages
             ResumeWindow.Show();
         }
 
+
+        private async void UiPage_Loaded(object sender, System.Windows.RoutedEventArgs e)
+        {
+            userService = new UserService();
+            var res = await userService.GetAllResumes();
+            if (res != null)
+            {
+                Resumes = res;
+            }
+            var vac = await userService.GetAllVacancies();
+            if(vac != null)
+            {
+                Vacancies = vac;
+            }
+        }
     }
 }

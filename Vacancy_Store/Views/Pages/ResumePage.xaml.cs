@@ -1,4 +1,8 @@
-﻿using Wpf.Ui.Common.Interfaces;
+﻿using Vacancy_Store.Helpers;
+using Vacancy_Store.Models;
+using Vacancy_Store.Services;
+using Vacancy_Store.ViewModels;
+using Wpf.Ui.Common.Interfaces;
 
 namespace Vacancy_Store.Views.Pages
 {
@@ -11,12 +15,15 @@ namespace Vacancy_Store.Views.Pages
         {
             get;
         }
-
-        public ResumePage(ViewModels.ResumeViewModel viewModel)
+        
+        public  ResumePage(ResumeViewModel viewModel)
         {
+           
+           
             ViewModel = viewModel;
 
             InitializeComponent();
         }
+        
     }
 }

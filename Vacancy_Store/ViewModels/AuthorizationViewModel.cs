@@ -17,13 +17,6 @@ namespace Vacancy_Store.ViewModels
         public void OnNavigatedFrom()
         {
         }
-
-        [RelayCommand]
-        private void OnCounterIncrement()
-        {
-            
-        }
-
         
     }
 }

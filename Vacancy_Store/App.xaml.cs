@@ -61,7 +61,7 @@ namespace Vacancy_Store
                 services.AddScoped<Views.Pages.AuthorizationPage>();
                 services.AddScoped<ViewModels.AuthorizationViewModel>();
 
-                services.AddDbContext<AppDbContext>(options => options.UseSqlServer(@"Data Source=DESKTOP-G3LNDNE\SQL_HOME_KMS;Initial Catalog=Vacancy_Store;Integrated Security=true;TrustServerCertificate=True;"));
+                services.AddDbContext<AppDbContext>(options => options.UseSqlServer(@"Data Source=\SQLEXPRESS;Initial Catalog=Vacancy_Store;Integrated Security=true;TrustServerCertificate=True;"));
                 // Configuration
                 services.Configure<AppConfig>(context.Configuration.GetSection(nameof(AppConfig)));
             }).Build();

@@ -29,6 +29,6 @@
                 BorderBrush="Black"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Top"
-                FontSize="20"/>
+                FontSize="20" Click="Button_Click"/>
     </Grid>
 </Window>

@@ -42,18 +42,9 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                     <RowDefinition/>
-=======
->>>>>>> 
-=======
                     <RowDefinition/>
->>>>>>> 
-=======
                     <RowDefinition/>
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
                 </Grid.RowDefinitions>
                 <TextBlock Text="Логин"
                            HorizontalAlignment="Center"
@@ -84,46 +75,18 @@
                 <Button Grid.Row="3"
                         Content="Войти"
                         Margin="5"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         HorizontalAlignment="Right"
                         Click="Ok_Click"/>
-=======
-                        Click="Button_Click"/>
->>>>>>> 
-=======
-                        HorizontalAlignment="Right"
-                        Click="Ok_Click"/>
->>>>>>> 
-=======
-                        HorizontalAlignment="Right"
-                        Click="Ok_Click"/>
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
                 <Button Grid.Column="1"
                         Grid.Row="3"
                         Content="Забыли пароль"
                         Margin="5"/>
                 <Button Grid.Column="1"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         Grid.Row="4"
-=======
-                        Grid.Row="3"
->>>>>>> 
-=======
-                        Grid.Row="4"
->>>>>>> 
-=======
-                        Grid.Row="4"
->>>>>>> 4bca1ee21ffa7addb20079a788e0dc791ed7361b
                         Content="Регистрация"
                         Margin="5"
                         Click="Reg_Click"/>
-
             </Grid>
-        </StackPanel>
-        
+        </StackPanel>        
     </Grid>
 </ui:UiPage>

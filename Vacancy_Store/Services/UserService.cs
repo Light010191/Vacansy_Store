@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,9 @@ namespace Vacancy_Store.Services
         private readonly AppDbContext _context ;
         public UserService()
         {
-
+            var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
+            optionsBuilder.UseSqlServer(@"Data Source=LIGHT010191\SQLEXPRESS;Initial Catalog=Vacancy_Store;Integrated Security=true;TrustServerCertificate=True;");
+            _context = new AppDbContext(optionsBuilder.Options);
         }
 
         public async Task<Company> AddNewCompany(Company company)
@@ -50,25 +53,51 @@ namespace Vacancy_Store.Services
             await _context.SaveChangesAsync();
             return true;
         }
-        public async Task<JobApplicant> GetEmployee(int id)
+        public async Task<JobApplicant> GetEmployee(string login,string password)
         {
-            return await _context.JobApplicants.Include("Resumes").FirstOrDefaultAsync(e => e.Id == id);
+            return await _context.JobApplicants.Include("Resumes").FirstOrDefaultAsync(e => e.Login == login && e.Password ==password);
         }
-        public async Task<Company> GetCompany(int id)
+        public async Task<Company> GetCompany(string login, string password)
         {            
-            return await _context.Companies.Include("Vacancies").FirstOrDefaultAsync(c => c.Id == id);
+            return await _context.Companies.Include("Vacancies").FirstOrDefaultAsync(c => c.Login == login && c.Password == password);
         }
         public async Task<ObservableCollection<Vacancy>> GetAllVacancies()
         {
-            var vacancies = new ObservableCollection<Vacancy>();
-            await _context.Companies.Include("Vacancies").ForEachAsync(c=> c.Vacancys.ToList().ForEach( v=>vacancies.Add(v)));
-            return vacancies; 
+            ObservableCollection<Vacancy> vac = new ObservableCollection<Vacancy>();
+            var vacancies = new List<Vacancy>();           
+
+            var com = await _context.Companies.ToListAsync();
+            if(com.Count > 0) 
+            {
+                com.ForEach(c => {
+                    if(c.Vacancys!=null) 
+                    {
+                        foreach (var item in c.Vacancys)
+                        { vacancies.Add(item); }
+                    }                   
+                });
+                vacancies.ForEach(v => vac.Add(v));
+            }            
+            return vac; 
         }
         public async Task<ObservableCollection<Resume>> GetAllResumes()
         {
-            var resumes = new ObservableCollection<Resume>();
-            await _context.JobApplicants.Include("Resumes").ForEachAsync(e => e.Resumes.ToList().ForEach(r => resumes.Add(r)));
-            return resumes;
+            ObservableCollection<Resume> res = new ObservableCollection<Resume>();
+            var resumes = new List<Resume>();
+
+            var emp = await _context.JobApplicants.ToListAsync();
+            if (emp.Count > 0)
+            {
+                emp.ForEach(r => {
+                    if (r.Resumes != null)
+                    {
+                        foreach (var item in r.Resumes)
+                        { resumes.Add(item); }
+                    }
+                });
+                resumes.ForEach(r => res.Add(r));
+            }
+            return res;
         }
         public async Task<ObservableCollection<Resume>> GetMyResumes(int id)
         {

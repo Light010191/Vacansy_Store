@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,27 +22,33 @@ namespace Vacancy_Store.Views.Windows
     /// </summary>
     public partial class Registr2 : Window
     {
-        public Company _context;
+        private UserService userService;
         public Registr2()
         {
             InitializeComponent();
-            _context = new Company();
+            userService = new UserService();
         }
 
 
         private async void OK_Click(object sender, RoutedEventArgs e)
         {
-            _context.Login = Login.Text;
-            _context.Password = Password.Text;
-            _context.NameCompany = CompanyName.Text;
-            _context.Salt = "a";
-            _context.AboutCompany = AboutCompany.Text;
-            _context.Img = "a";
-            UserService userService = new UserService();
-            await userService.AddNewCompany(_context);
+            //_context.Login = Login.Text;
+            //_context.Password = Password.Text;
+            //_context.NameCompany = CompanyName.Text;
+            //_context.Salt = "a";
+            //_context.AboutCompany = AboutCompany.Text;
+            //_context.Img = "a";
+            await userService.AddNewCompany(new Company
+            {
+                Login = Login.Text,
+                Password = Password.Text,
+                NameCompany = CompanyName.Text,
+                Salt = "a",
+                AboutCompany = AboutCompany.Text,
+                Img = "a"
+            });
 
-            this.Close();
-            
+            this.Close();            
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
